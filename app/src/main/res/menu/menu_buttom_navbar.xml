@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home_menu_item"
+        android:title="Home"
+        android:icon="@drawable/home_icon"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/edit_menu_item"
+        android:title="Edit"
+        android:icon="@drawable/edit_icon"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/logout_menu_item"
+        android:title="Logout"
+        android:icon="@drawable/logout"
+        app:showAsAction="never"/>
+
+</menu>
